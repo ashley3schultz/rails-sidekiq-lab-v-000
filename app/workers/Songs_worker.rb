@@ -1,4 +1,4 @@
-class SongWorker
+class SongsWorker
   require 'csv'
   include Sideiq::Worker
 
