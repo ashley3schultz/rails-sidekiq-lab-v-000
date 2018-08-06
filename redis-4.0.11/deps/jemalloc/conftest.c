@@ -46,3 +46,20 @@
 #define JEMALLOC_MAPS_COALESCE  
 #define JEMALLOC_DSS  
 #define JEMALLOC_FILL  
+/* end confdefs.h.  */
+
+#include <sys/types.h>
+#include <sys/param.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <sys/ktrace.h>
+
+int
+main ()
+{
+
+	utrace((void *)0, 0);
+
+  ;
+  return 0;
+}
