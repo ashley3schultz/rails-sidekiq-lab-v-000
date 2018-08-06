@@ -8,4 +8,4 @@ class SongsWorker
       Song.create(title: song[0], artist_id: artist.id)
     end
   end
-end 
+end
